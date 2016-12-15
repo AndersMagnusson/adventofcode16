@@ -1042,7 +1042,6 @@ yhwooebeaz-nwilwcejc-ydkykhwpa-owhao-160[skuyi]`
 		}
 
 		if !decoy {
-
 			for k, v := range letterParse.Counter {
 				if !checksum.Exists(k) {
 					if v > min {
@@ -1061,7 +1060,6 @@ yhwooebeaz-nwilwcejc-ydkykhwpa-owhao-160[skuyi]`
 				}
 			}
 		}
-
 	}
 
 	fmt.Printf("The result %d", result)
