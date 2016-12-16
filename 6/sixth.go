@@ -1,7 +1,7 @@
 package main
 
 import (
-	"log"
+	"fmt"
 	"strings"
 )
 
@@ -34,7 +34,7 @@ func main() {
 				max = val
 			}
 		}
-		log.Printf("%s", letter)
+		fmt.Printf("%s", letter)
 	}
 }
 
